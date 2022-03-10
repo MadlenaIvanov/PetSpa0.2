@@ -5,7 +5,17 @@
       "ProjectGuid": "2a1a9f98-33db-4f5d-88dc-06bad449442d",
       "DisplayName": "PetSpa0.2",
       "ColorIndex": 0
+    },
+    "b7757b99-f540-432a-8144-9f2fda17a060": {
+      "ProjectGuid": "b7757b99-f540-432a-8144-9f2fda17a060",
+      "DisplayName": "PetSpa.Core",
+      "ColorIndex": 1
+    },
+    "c3785772-c68f-4820-b6b2-a9d57a95656f": {
+      "ProjectGuid": "c3785772-c68f-4820-b6b2-a9d57a95656f",
+      "DisplayName": "PetSpa.Infrastructure",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -1,17 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj": {}
+    "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj": {
+    "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
-        "projectName": "PetSpa0.2",
-        "projectPath": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
+        "projectUniqueName": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj",
+        "projectName": "PetSpa.Core",
+        "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj",
         "packagesPath": "C:\\Users\\Mimi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\obj\\",
+        "outputPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\PetSpa.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\PetSpa.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\PetSpa.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\PetSpa.Infrastructure.csproj",
+        "projectName": "PetSpa.Infrastructure",
+        "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\PetSpa.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mimi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,6 +94,68 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
+        "projectName": "PetSpa0.2",
+        "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
+        "packagesPath": "C:\\Users\\Mimi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj": {
+                "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

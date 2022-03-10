@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PetSpa.Core/1.0.0": {
+        "dependencies": {
+          "PetSpa.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "PetSpa.Core.dll": {}
+        }
+      },
+      "PetSpa.Infrastructure/1.0.0": {
+        "runtime": {
+          "PetSpa.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetSpa.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetSpa.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

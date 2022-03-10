@@ -764,6 +764,29 @@
             "rid": "win"
           }
         }
+      },
+      "PetSpa.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PetSpa.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PetSpa.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetSpa.Core.dll": {}
+        }
+      },
+      "PetSpa.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PetSpa.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetSpa.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2253,6 +2276,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PetSpa.Core/1.0.0": {
+      "type": "project",
+      "path": "../PetSpa.Core/PetSpa.Core.csproj",
+      "msbuildProject": "../PetSpa.Core/PetSpa.Core.csproj"
+    },
+    "PetSpa.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../PetSpa.Infrastructure/PetSpa.Infrastructure.csproj",
+      "msbuildProject": "../PetSpa.Infrastructure/PetSpa.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2261,7 +2294,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.1",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "PetSpa.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2271,11 +2305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
+      "projectUniqueName": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
       "projectName": "PetSpa0.2",
-      "projectPath": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
+      "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
       "packagesPath": "C:\\Users\\Mimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mimi\\source\\repos\\PetSpa0.2\\PetSpa0.2\\obj\\",
+      "outputPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2295,7 +2329,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj": {
+              "projectPath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa.Core\\PetSpa.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

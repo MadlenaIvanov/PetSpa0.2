@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PetSpa.Core.Constants;
 using PetSpa0._2.Models;
 using System.Diagnostics;
 
@@ -15,6 +16,8 @@ namespace PetSpa0._2.Controllers
 
         public IActionResult Index()
         {
+            ViewData[MessageConstant.SuccessMessage] = "Everything works ok!";
+
             return View();
         }
 

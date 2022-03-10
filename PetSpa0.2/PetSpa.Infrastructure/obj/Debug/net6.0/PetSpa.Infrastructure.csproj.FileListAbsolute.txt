@@ -1,0 +1,12 @@
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\bin\Debug\net6.0\PetSpa.Infrastructure.deps.json
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\bin\Debug\net6.0\PetSpa.Infrastructure.dll
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\bin\Debug\net6.0\ref\PetSpa.Infrastructure.dll
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\bin\Debug\net6.0\PetSpa.Infrastructure.pdb
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.AssemblyInfo.cs
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.dll
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\ref\PetSpa.Infrastructure.dll
+C:\Users\Mimi\Documents\GitHub\PetSpa0.2\PetSpa0.2\PetSpa.Infrastructure\obj\Debug\net6.0\PetSpa.Infrastructure.pdb
