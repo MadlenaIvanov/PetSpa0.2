@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PetSpa.Core.Constants;
-using PetSpa0._2.Data;
+using PetSpa.Infrastructure.Data;
 using PetSpa0._2.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
