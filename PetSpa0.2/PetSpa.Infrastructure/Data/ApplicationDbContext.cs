@@ -9,5 +9,8 @@ namespace PetSpa.Infrastructure.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Salon> Salons { get; set; }
     }
 }
