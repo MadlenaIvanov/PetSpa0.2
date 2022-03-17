@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PetSpa.Core.Constants;
 using PetSpa.Infrastructure.Data;
+using PetSpa.Infrastructure.Data.Repositories;
 using PetSpa0._2.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ builder.Services.AddControllersWithViews()
         options.ModelBinderProviders.Insert(1, new DateTimeModelBinderProvider(FormattingConstant.NormalDateFormat));
         options.ModelBinderProviders.Insert(2, new DoubleModelBinderProvider());
     });
+
+builder.Services.AddScoped<IApplicationDbRepository, ApplicationDbRepository>();
 
 var app = builder.Build();
 
