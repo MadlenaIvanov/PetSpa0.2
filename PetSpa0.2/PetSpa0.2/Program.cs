@@ -2,19 +2,25 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PetSpa.Core.Constants;
 using PetSpa.Infrastructure.Data;
+using PetSpa.Infrastructure.Data.Identity;
 using PetSpa.Infrastructure.Data.Repositories;
 using PetSpa0._2.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddApplicationDbContexts(builder.Configuration);
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddAuthentication()
+    .AddFacebook(options =>
+    {
+        options.AppId = "362442809097170";
+        options.AppSecret = "bef6bde8846f41349d9538679ef1e25d";
+    });
+
 builder.Services.AddControllersWithViews()
     .AddMvcOptions(options =>
     {
@@ -23,7 +29,7 @@ builder.Services.AddControllersWithViews()
         options.ModelBinderProviders.Insert(2, new DoubleModelBinderProvider());
     });
 
-builder.Services.AddScoped<IApplicationDbRepository, ApplicationDbRepository>();
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 

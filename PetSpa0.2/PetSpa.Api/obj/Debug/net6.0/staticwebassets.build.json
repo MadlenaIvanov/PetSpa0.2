@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j+6yKY9FfH+G0al0xj9OyqjNWT4ONG8lNiEtHVg4+jY=",
+  "Source": "PetSpa.Api",
+  "BasePath": "_content/PetSpa.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

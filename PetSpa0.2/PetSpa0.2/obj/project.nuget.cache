@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y8yIzOcqd/QLH6OI+j9so/PlhlQeo3Dpa/TrOY0CXKuiNRbfqCK3fQX92sjj4P4NUnxxOOuGKqbAQGshSzjRow==",
+  "dgSpecHash": "ogwOe3778OpYrq4AdPDyQ7vVCC//ukqcQqxaCvTejXwd9EakcH2rhEvi6ob3FeSNGxe0vFttSShP5LEMyOhZoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mimi\\Documents\\GitHub\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2\\PetSpa0.2.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Mimi\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\Mimi\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.3\\microsoft.aspnetcore.authentication.facebook.6.0.3.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.2\\microsoft.aspnetcore.cryptography.internal.6.0.2.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.2\\microsoft.aspnetcore.cryptography.keyderivation.6.0.2.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.1\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.1.nupkg.sha512",
