@@ -25,7 +25,12 @@
       "ProjectGuid": "3aae46c0-7e14-4e80-b9a4-210d19f0fdd7",
       "DisplayName": "PetSpa.Api",
       "ColorIndex": 3
+    },
+    "91844612-d510-4a3e-85bd-f7f70b857638": {
+      "ProjectGuid": "91844612-d510-4a3e-85bd-f7f70b857638",
+      "DisplayName": "PetSpa.Test",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
