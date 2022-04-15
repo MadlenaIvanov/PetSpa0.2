@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using PetSpa.Core.Constants;
 using PetSpa.Infrastructure.Data;
 using PetSpa.Infrastructure.Data.Identity;
 using PetSpa.Infrastructure.Data.Repositories;
 using PetSpa0._2.ModelBinders;
+using PetSpa0._2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +37,9 @@ builder.Services.AddControllersWithViews()
     });
 
 builder.Services.AddApplicationServices();
+
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
 
 var app = builder.Build();
 
