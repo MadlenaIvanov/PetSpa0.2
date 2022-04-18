@@ -30,7 +30,7 @@ namespace PetSpa0._2.Controllers
             return View(users);
         } 
 
-        public IActionResult Index()
+        public IActionResult ProfilePage()
         {
             return View();
         }

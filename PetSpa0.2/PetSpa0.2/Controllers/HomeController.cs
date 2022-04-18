@@ -21,6 +21,11 @@ namespace PetSpa0._2.Controllers
             return View();
         }
 
+        public IActionResult HomePage()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

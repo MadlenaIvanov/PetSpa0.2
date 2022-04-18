@@ -15,5 +15,10 @@ namespace PetSpa.Infrastructure.Data.Identity
 
         [StringLength(50)]
         public string? LastName { get; set; }
+
+        public ICollection<Pet> Pets { get; set; } = new List<Pet>();
+        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+
     }
 }
